@@ -1,0 +1,14 @@
+.PhotoWithText-Container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Text-box {
+    padding: 5px;
+}
+
+.Photo-box img {
+    width: 50vw;
+}
