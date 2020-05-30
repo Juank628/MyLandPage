@@ -1,14 +1,25 @@
 .PhotoWithText-Container {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  line-height: 0;
 }
 
 .Text-box {
-    padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  background-color: #28a745;
+  color: white;
+  line-height: 1.5;
+}
+
+.Text-box h3 {
+  font-size: 35px;
+  font-weight: 100;
 }
 
 .Photo-box img {
-    width: 50vw;
+  width: 50vw;
 }

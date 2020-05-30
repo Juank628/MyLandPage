@@ -8,6 +8,7 @@ render() {
     return (
       <div className="PhotoWithText-Container">
         <div className="Text-box">
+          <h3>Fasfaf adsda asdgwe</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
             nisi sint dicta fugiat! Iste nisi facilis ab, porro unde reiciendis

@@ -5,12 +5,18 @@ import "./Styles.css";
 
 export default class IconWithText extends Component {
   render() {
+    const { iconColor, iconBackColor, title, description, faIcon } = this.props;
+
     return (
-      <div>
-        <FontAwesomeIcon icon={icons["faMountain"]} color="green" />
+      <div className="InconsWithText-box">
+        <div className="icon" style={{backgroundColor: iconBackColor}}>
+          {faIcon ? (
+            <FontAwesomeIcon icon={icons[faIcon]} color={iconColor} />
+          ) : null}
+        </div>
         <div>
-          <h3>xxxxx</h3>
-          <p>aasdasdadasfv asfaf awa faf</p>
+          <h3>{title}</h3>
+          <p>{description}</p>
         </div>
       </div>
     );

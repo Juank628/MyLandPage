@@ -9,7 +9,7 @@ export default class Navbar extends Component {
       <div className="Navbar-box">
         <h1>
           <span>
-            <FontAwesomeIcon icon={faMountain} color="green" />
+            <FontAwesomeIcon icon={faMountain} color="#28a745" />
             Far lands
           </span>
         </h1>

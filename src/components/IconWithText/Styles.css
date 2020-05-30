@@ -1,0 +1,34 @@
+.InconsWithText-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.InconsWithText-box .icon {
+    display: flex;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: lightgray
+}
+
+.InconsWithText-box .icon svg {
+    margin: auto;
+}
+
+.InconsWithText-box h3 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    color: black
+}
+
+.InconsWithText-box p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: black
+}
